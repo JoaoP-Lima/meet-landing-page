@@ -1,0 +1,17 @@
+.page {
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+}
+
+.nav {
+    padding: 80px;
+    position: relative; 
+
+}
+
+.nav__logo {
+    width: 118px;
+    height: 28px;
+    
+}
