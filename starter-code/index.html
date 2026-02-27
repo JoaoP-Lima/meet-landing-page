@@ -10,7 +10,7 @@
       sizes="32x32"
       href="./assets/favicon-32x32.png"
     />
-    <link rel="stylesheet" href="./styles/style.css">
+    <link rel="stylesheet" href="./styles/style.css" />
 
     <title>Frontend Mentor | Meet landing page</title>
   </head>
@@ -19,9 +19,21 @@
       <nav class="nav">
         <img src="./assets/logo.svg" alt="Logo" class="nav__logo" />
       </nav>
+
       <header class="header">
-        <div class="container">
-          <img src="./assets/desktop/image-hero-left.png" alt="" class="header__image">
+        <div class="container header-layout">
+          
+          <img
+            src="./assets/desktop/image-hero-left.png"
+            alt=""
+            class="header__image"
+          />
+ <img
+            src="./assets/desktop/image-hero-right.png"
+            alt=""
+            class="header__image"
+          />
+          
           <div class="header__content">
             <h1 class="header__title">Group Chat for Everyone</h1>
             <p class="header__paragraph">
@@ -29,16 +41,90 @@
               and collaborate across any device.
             </p>
             <div class="header__buttons">
-              <div class="button">Download<span>v1.3</span></div>
-              <div class="button">What is it?</div>
-              <img src="./assets/desktop/image-hero-left.png" alt="" class="header__image">
+              <button class="button button-type-download">
+                Download<span>v1.3</span>
+              </button>
+              <button class="button button-type-more-information">
+                What is it?
+              </button>
             </div>
           </div>
+          
         </div>
       </header>
+
       <main>
-        <div class="container"></div>
+        <section class="about-section">
+       
+          
+          <div class="container about-layout">
+               <div class="number-page">
+              <span class="line"></span>
+              <span class="number">01</span>
+            </div>
+            
+            
+            
+            <div class="about__images">
+              <img
+                src="./assets/desktop/image-women-videochatting.jpg"
+                alt=""
+                class="about__image"
+              />
+              <img
+                src="./assets/desktop/image-woman-in-videocall.jpg"
+                alt=""
+                class="about__image"
+              />
+              <img
+                src="./assets/desktop/image-men-in-meeting.jpg"
+                alt=""
+                class="about__image"
+              />
+              <img
+                src="./assets/desktop/image-man-texting.jpg"
+                alt=""
+                class="about__image"
+              />
+            </div>
+            <div class="about__text-content">
+              <span class="about__subtitle"> Built for modern use </span>
+              <h2 class="about__title">Smarter meetings, all in one place</h2>
+              <p class="about__paragraph">
+                Send messages, share files, show your screen, and record your
+                meetings — all in one workspace. Control who can join with
+                invite-only team access, data encryption, and data export.
+              </p>
+            </div>
+          </div>
+        </section>
       </main>
+      
+      
+   
+
+      <footer class="footer">
+           <div class="number-page footer-number">
+        <span class="line"></span>
+        <span class="number">02</span>
+      </div>
+      <div class="footer__layout">
+        <div class="container">
+         
+
+          <div class="footer__content">
+            <h3 class="footer__title">Experience more together</h3>
+            <p class="footer__paragraph">
+              Stay connected with reliable HD meetings and unlimited one-on-one
+              and group video sessions.
+            </p>
+            <button class="button button-type-download_footer">
+              Download <span>v1.3</span>
+            </button>
+          </div>
+        </div>
+        </div>
+      </footer>
     </div>
   </body>
 </html>
